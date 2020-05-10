@@ -4,3 +4,4 @@ public enum Rank {
     goldMedal, silverMedal, bronzeMedal
 }
 
+
