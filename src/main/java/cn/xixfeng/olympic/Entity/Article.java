@@ -1,13 +1,14 @@
 package cn.xixfeng.olympic.Entity;
 
 import javax.persistence.*;
+import java.sql.Timestamp;
 
 @Entity
 public class Article {
 
   private long id;
   private String content;
-  private java.sql.Timestamp time;
+  private java.sql.Timestamp time = new Timestamp(System.currentTimeMillis());
   private String pic;
   private long userId;
 
